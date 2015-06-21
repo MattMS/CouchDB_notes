@@ -25,7 +25,7 @@
 Object member order **does** matter for collation.
 CouchDB preserves member order but doesn't require that clients will.
 
-- From [local docs](http://127.0.0.1:5984/_utils/docs/couchapp/views/collation.html#collation-specification)
+- [Collation specification in local docs](http://localhost:5984/_utils/docs/couchapp/views/collation.html#collation-specification)
 
 - [ICU](http://site.icu-project.org/)
 
@@ -37,4 +37,4 @@ CouchDB preserves member order but doesn't require that clients will.
 Use `startkey="abc"&endkey="abc\ufff0"`
 instead of `startkey="abc"&endkey="abcZZZZZZZZZ"`.
 
-- From [local docs](http://127.0.0.1:5984/_utils/docs/couchapp/views/collation.html#string-ranges)
+- [String ranges in local docs](http://localhost:5984/_utils/docs/couchapp/views/collation.html#string-ranges)
